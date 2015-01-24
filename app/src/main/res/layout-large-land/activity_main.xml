@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00aad4"
+    android:gravity="center"
+    android:id="@+id/julio">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/inicio"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            style="@style/MyEditBottom"
+            android:ems="10"
+            android:hint="usuario"
+            android:id="@+id/editusuario1"/>
+
+        <EditText
+
+            style="@style/MyEditBottom.LargeFont"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="usuario"
+            android:id="@+id/edit_usuario1"
+            android:maxLength="20"/>
+
+        <Button
+            style="@style/MyEditBottom"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="LOGIN"
+            android:background="#006680"
+            android:nestedScrollingEnabled="false"
+            android:onClick="acepta"/>
+    </LinearLayout>
+
+</LinearLayout>
